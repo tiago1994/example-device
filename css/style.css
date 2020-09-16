@@ -1,0 +1,79 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.div-geral-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloco-phone{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-box{
+    position: relative;
+}
+.phone-img{
+    width: 300px;
+}
+.fundo-bg{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: -1;
+    width: calc(300px - 80px);
+    height: 62px;
+    object-fit: cover;
+}
+.logo-empresa{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.logo-empresa2{
+    position: absolute;
+    bottom: 165px;
+    left: 50px;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.logo-vazio-empresa{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    background-color: #ccc;
+}
+.logo-vazio-empresa2{
+    position: absolute;
+    bottom: 165px;
+    left: 50px;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    background-color: #ccc;
+}
+.box-text{
+    color: #FFF;
+    position: absolute;
+    top: 53px;
+    text-align: center;
+    width: 100%;
+}
+.box-text-title{
+    font-weight: bold;
+    font-size: 12px;
+}
+.box-text-desc{
+    font-size: 12px;
+}
